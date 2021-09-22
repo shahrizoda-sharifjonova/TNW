@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+.container{
+    max-width: 1320px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__logo__text{
+    font-weight: bold;
+}
+.header__lists{
+    display: flex;
+}
+.header__item{
+    list-style: none;
+    margin-right: 20px;
+}
+.header__link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3A3838;
+    transition: 0.5s cubic-bezier(0.68,-0.55,0.265,1.55);
+}
+.header__link:hover, .header__link.active{
+    color: #EF4423;
+}
+.intro{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item:nth-child(even){
+    flex-direction: column-reverse;
+}
+.item:nth-child(1){
+    background: #B71C1C;
+}
+.item:nth-child(2){
+    background: #6A1B9A;
+}
+.item:nth-child(3){
+    background: #303F9F;
+}
+.item:nth-child(4){
+    background: #00695C;
+}
+.item__title{
+    color: #fff;\
+    font-size: 17px;
+    font-weight: 700;
+}
+.item__txt{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+}
+.item__texts{
+    padding: 15px;
+}
+.item__img{
+    width: 100%;
+    max-width: 100%;
+}
+.news{
+    margin: 50px 0;
+}
+.news__title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.news__row{
+    background: #EDEDED;
+}
+.news__body{
+    display: flex;
+    justify-content: space-between;
+}
+.news__row__right{
+    padding: 20px 30px;
+}
+.news__row__title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    color: #3A3838;
+    margin-bottom: 30px;
+}
+.news__row__txts{
+    font-size: 18px;
+    line-height: 21px;
+    color: #686868;
+}
+.footer__body{
+    background: #3A3838;
+}
+.footer__link{
+    color: #fff;
+}
+.footer__logo__text{
+    color: #fff;
+}
